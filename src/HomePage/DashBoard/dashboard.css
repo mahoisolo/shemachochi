@@ -16,14 +16,14 @@ body, html {
 }
 
 .navigations {
-    background-color: #333; /* Dark gray background color */
-    color: #fff; /* White text color */
-    width: 20%; /* Adjust the width of the navigation bar */
-    height: 100vh; /* Make the navigation bar full height of the viewport */
+    background-color: #333; 
+    color: #fff; 
+    width: 20%; 
+    height: 100vh; 
     position: fixed;
     top: 0;
     left: 0;
-    margin: 0; /* Remove margin */
+    margin: 0; 
     color: #fff;
 
 }
@@ -36,11 +36,10 @@ body, html {
 .navigations div {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Adjust the margin between items */
+    margin-bottom: 10px; 
 }
 
 
-/* Darker background color for the two images */
 .twoimages img {
     background-color: #222;
     height: 25px;
@@ -48,7 +47,6 @@ body, html {
     
 }
 
-/* Add hover effect on navigation items if needed */
 .navigations li:hover {
     background-color: rgb(6, 15, 6);
 }
@@ -63,25 +61,21 @@ body, html {
     background-color: rgb(239, 237, 237);
     padding:  10px 30px;
     margin-left: 20%;
-    /* margin-left: 250px; */
     background-color:white;
     color: #fff;
-    /* margin-top: 20px; Adjust the margin-top as needed */
-    /* margin-left: 20px; */
+  
     margin-right: 0px;
 
 }
-/* Add this CSS in your styles file */
 
 .group button {
-        background-color: rgb(239, 237, 237);
+background-color: rgb(239, 237, 237);
 color: #222;
-  /* background-color: #ffffff; Default background color */
-  margin-right: 5px; /* Optional: Adjust spacing between buttons */
+margin-right: 5px; 
 }
 
 .group button.selected {
-  background-color: #00ff00; /* Change this to the desired color for selected buttons */
+  background-color: #87aadf;
 }
 
 
@@ -114,16 +108,14 @@ h2{
     justify-content: space-between;
     margin-left: 290px;
     margin-right: 30px;
-    /* background-color: lightblue; */
     border-color: yellow;
 }
 .changes img{
-    /* width: 100px; */
     width: 20%;
     margin-left: 40%;
     margin-top: 2;
 }
-/* Add additional styles for other elements in your page */
+
 
 .oil-container,.sugar-container {
     background-color: #fff;
@@ -165,54 +157,42 @@ h2{
 .sugar-image img{
   padding-left: 50%;
   margin-left: 50%;
-  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-width: 100%; 
   max-height: 100%;
 }
 .buttons {
     padding: 8px;
-    /* border: 1px solid #ccc; */
     border-radius: 5px;
-    
     margin-left: 22%;
 }
 .buttons input{
     margin-top: 1%;
-    /* margin-right: 10%; */
     padding: 4% 80% 4% 0px;
-    /* width: 23%; */
-
     background-color: rgb(229, 243, 243);
 }
 
 
 .allmember{
-    /* margin-left: 50%; */
     margin-right: 40%;
         margin-top: 1%;
         width: 10%;
         height: 10%;
         padding-top: 1%;
-        /* padding: 3% 0% 3% 1%; */
 
 }
 .buttonandall{
     display: flex;
     justify-content: space-between;
 }
-.table{
-    /* margin-left: 23%; */
-}
+
 .last {
     display: flex;
     margin-right: 10%;
 }
 
-.table {
-    flex: 1;
-    /* margin-right: 20px; Adjust the margin as needed */
-    margin-left: 23%;
 
-}
+
+
 
 .lastbuttons {
     display: flex;
@@ -220,7 +200,7 @@ h2{
 }
 
 .lastbuttons button {
-    margin-bottom: 10px; /* Adjust the margin between the buttons */
+    margin-bottom: 10px; 
 }
 
 .search{
@@ -228,8 +208,7 @@ background-color: #222;
 color:white;
 padding-top: 3%;
 padding-bottom: 3%;
-/* width: 25%; */
-/* padding-right: 5%; */
+
 }
 .distributegood{
 background-color: red;
@@ -238,7 +217,6 @@ border: none;
 }
 
 .content {
-    /* margin-left: 250px; Adjust margin to give space for the navigation */
     padding: 20px;
 }
 
@@ -249,9 +227,7 @@ border: none;
 }
 
 .dashboard img {
-    width: 50px; /* Adjust the image width */
-    height: 50px; /* Adjust the image height */
-    margin-right: 10px; /* Adjust the margin between image and text */
-}
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; }
 
-/* Add styles for other sections as needed */
