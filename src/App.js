@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import DashBoard from "./HomePage/DashBoard/DashBoard";
+import Distribute from "./HomePage/DashBoard/Distribute";
+import { Route, Routes } from "react-router-dom";
+import Header from "./HomePage/DashBoard/Header";
+import Goods from "./HomePage/Goods/Goods";
+import G from "./HomePage/Goods/G";
+import Members from "./HomePage/Members/Members";
+// import Goods from "./HomePage/Goods/Goods";
+// import Header2 from "./HomePage/DashBoard/Header2";
+import Nav from "./HomePage/DashBoard/Nav"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <Header />
+      {/* <G/> */}
+      <Routes>
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/goods" element={<G />} />
+        <Route path="/members" element={<Members/>} />
+      </Routes>
+    </>
   );
 }
 
